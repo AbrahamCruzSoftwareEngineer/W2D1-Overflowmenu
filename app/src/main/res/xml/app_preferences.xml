@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Add Some Text">
+        <EditTextPreference
+            android:title="This are preferences"
+            android:summary="The title that will be used on the main action bar"
+            android:key="title"
+            android:defaultValue="Preferences" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Edwin Clicks">
+        <CheckBoxPreference
+            android:title="Click"
+            android:summary="The check is set on true"
+            android:key="Background Color"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+
+
+   </PreferenceScreen>

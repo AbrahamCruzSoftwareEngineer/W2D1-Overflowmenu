@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrefFragment</string>
+    <string name="action_settings">Click This</string>
+    <string name="Title_preferences">App Settings dude!</string>
+</resources>
